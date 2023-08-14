@@ -1,0 +1,277 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+html{
+    font-family: 'Share Tech', sans-serif;
+    box-sizing: border-box;
+} /*faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura.*/
+
+
+.clear { clear: both;}
+
+body{
+    font-size: 18px; 
+    line-height: 1.4;
+    background-color: #ddd;
+    color: #333;
+}
+
+.tudo{
+    width: 100%; /*a largura do elemento será igual a largura da tela */
+    max-width: 960px; /*estabelece a largura máxima de um elemento.*/
+    margin: 0 auto; /*dizemos ao navegador que as margens superior e inferior são iguais a 0 e as da esquerda e direita são automáticas. .*/
+    background-color: #fffaf0;
+    padding-top: 20px;
+    background-image: url(img/v617batch2-bb-01-technology.jpg);
+    background-size: cover;
+}
+
+.topo{
+    line-height: 1;
+    padding: 1px 0px 10px 0px;
+}
+
+.topo h1{
+    font-size: 33px;
+    margin: 4px 20px 2px 0;
+    text-align: right; /*alinha a direita o elemento h1 contido no topo.*/
+}
+
+.link-topo{
+    margin-left: 2px;
+}
+
+.topo a{
+    color: #00213F;
+    font-size: 50px;
+    text-decoration: none; /*retira o sublinhado padrão do <a>  .*/
+    display: inline-block;
+}
+
+.topo h2{
+    font-size: 30px;
+    margin: 5px 20px 4px 0;
+    text-align: right;
+    color: #00213F;
+}
+
+.title-topo{
+    background-color: #fff;
+}
+
+nav > ul {
+    margin: 5px 0 50px 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+}
+
+nav{
+    border-top: 1px solid #fff;
+    width: 100%;
+    width:calc(100% + 40px); /*permite que se definam valores CSS com uso de expressões matemáticas*/
+    margin-left: -20px;
+}
+
+.topo ul li{
+    list-style: none; /*remove o marcador de lista de tags <ul> e <ol>*/
+    display: inline; /*é utilizado quando queremos que os elementos fiquem posicionados lado a lado*/
+}
+    
+.topo ul li a{
+    float: left;  /* indica que o elemento deve flutuar no lado inicial do seu bloco. */
+    text-decoration: none;
+    text-transform: uppercase; /*serve para deixar as letras de determinado elemento maiúsculas*/
+    text-align: center;
+    border-right: 1px solid #fff;
+    padding: 10px 20px;
+    background-color: #003854;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.topo ul li:last-child a {
+    border:none
+}
+
+.topo ul li a:hover, .home .corrent {
+    background-color: #007296;
+}
+
+.content-presentation{
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    border-bottom: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.img-presentation{
+    width: 300px;
+    height: 300px;
+    margin: 50px 40px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.content-text{
+    height: 500px;
+    width: 500px;
+    margin-left: 40px;
+    padding: 0 10px 0 10px;
+    background-color: #fff;
+    color: #000;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.content-title{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.content-paragraph{
+    font-size: 20px;
+    line-height: 1.5;
+    text-indent: 1.7em;
+    text-align: justify;
+    color: black;
+    margin: 12px 12px;
+}
+
+.section-courses{
+    height: 100vh;
+    display: flex;
+    padding-top: 80px;
+    border-bottom: 1px solid #fff;
+}
+
+.box-title-courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title-courses{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: #fff;
+    transform: rotate(270deg);
+   
+}
+
+.courses{
+    width: 70%;
+}
+
+.course{
+    background-color: #fff;
+    opacity: 0.8;
+    color: #000;
+    margin: 0 20px 10px 0;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.section-project{
+    height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    border-bottom: 1px solid #fff;
+}
+
+.box-title-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-project{
+    color: #fff;
+    font-size: 60px;
+    transform: rotate(270deg);
+    letter-spacing: 20px;
+    display: flex;
+    justify-content: center;
+    width: 250px;   
+}
+
+.projects{
+    width: 70%;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    opacity: 0.8;
+    color: #000;
+    margin: 0px 0px 10px 17px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.project h2{
+    font-size: 20px;
+}
+
+.img-project{
+    border-radius: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.img-project:hover{
+    position:relative;
+    top:0;
+    padding: 1px;
+    background-color:#999;
+    transition: all .2s ease-in-out;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100px;
+}
+
+.contact h3{
+    font-size: 18px;
+    color: #003464;
+}
+
+.link-contact{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.contact p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #003464;
+    margin: 0;
+}

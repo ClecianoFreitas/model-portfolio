@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de sites com HTML e CSS | Cleciano Freitas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+    <div class="tudo">
+    <header class="topo"> <!-- Elemento HTML que representa o cabeçalho de uma página web. Pode conter alguns elementos de cabeçalho Um ou mais elementos de título (<h1> - <h6>); Um logotipo ou ícone; Link de navegação; Um formulário de pesquisa. -->
+        <hgroup class="title-topo" > <!-- Usamos o elemento "hgroup" para englobar uma ou mais tags de cabeçalho. -->
+            <h1><a href="/">Cleciano Freitas</a></h1>
+            <h2>Desenvolvedor Web</h2>
+        </hgroup>
+        <nav class="link-topo"> <!--representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.-->
+            <ul>
+                <li><a class="corrente" href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#cursos">cursos</a></li>
+                <li><a href="#projetos">portfólio</a></li>
+                <li><a href="#contatos">contatos</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content-presentation" id="sobre-mim">
+            <div>
+                <img class="img-presentation" src="img/img-cleciano1.jpg" alt="imagem cleciano">
+            </div>
+                
+            <div class="content-text">
+                <h1 class="content-title">Sobre mim</h1>
+                <p class="content-paragraph">Meu nome é Cleciano Freitas, tenho 30 anos e moro no Município de Maranguape, no Ceará. Atualmente estou estudando para me tornar um desenvolvedor Front-End.</p>
+                <p class="content-paragraph">Tenho focado na linguagem de marcação HTML5 e na estilização CSS3, tal como na linguagem de programação JavaScrip</p>
+                <p class="content-paragraph">Minha meta é poder atuar na área front-end em importantes empresas, contribuindo para o desenvolvimento das mesmas, tal como meu desenvolvimento pessoal e profissional.</p>
+            </div>
+        </section>
+        <section class="section-courses" id="cursos">
+          <div class="box-title-courses">
+            <h1 class="title-courses">Cursos</h1>
+          </div>
+          <div class="courses">
+            <div class="course">
+                <h2>CEPEP</h2>
+                <h3>Técnico em Informática</h3>
+                <p>O curso Técnico em Informática tem por objetivo capacitar pessoas para atuar na área de informática, e que possuam, além do domínio técnico, visão sistêmica, a capacidade de atuar em equipe e propor soluções, atentendo às múltiplas e complexas demandas da ocupação. O curso Técnico em Informática visa formar o profissional que desempenha atividades ligadas a montagem e manutenção de microcomputadores, instalação e configuração de redes, desenvolvimento de sistemas e websites, etc.</p>
+            </div>
+            <div class="course">
+                <h2>DevClub</h2>
+                <h3>Programação - Full Stack</h3>
+                <p> O curso de programação Full Stack que tem como objetivo formação completa de programação, onde você sai do completo zero ao avançado, se tornando um programador full stack. Tem aulas completas de HTML, CSS, Javascript, Node, Banco de dados, React. Além disso, o DevClub possui uma comunidade de programadores que a cada dia cresce mais, com cada vez mais programadores que já estão atuando na área. Lá dentro são tiradas dúvidas, são dadas dicas, e postagens de vagas de programação.</p>
+            </div>
+            <div class="course">
+                <h2>Curso em Vídeo</h2>
+                <h3>HTML5, CSS3 e JavaScript</h3>
+                <p>O Curso em Vídeo é uma plataforma online que disponibiliza, de forma gratúita diversos cursos na área de tecnologia. Tem como principal objetivo democrartizar o acesso ao ensino. Nele fiz o curso de HTML5 e CSS3, indo do módulo 1, onde aprendemos o básico de linguagem de marcação e estilo, até o avançado, criando projetos do zero e disponibilizando online.</p>
+            </div>
+          </div>
+        </section>
+        <section class="section-project" id="projetos">
+            <div class="box-title-project">
+                <h1 class="title-project">Projetos</h1>
+            </div>
+            <div  class="projects">
+                <div class="project">
+                    <h2>Projeto Marvel</h2>
+                    <a  href="https://clecianofreitas.github.io/projeto-marvel/" target="_blank">
+                        <img class="img-project" src="img/img-marvel.jpg" width="300px" alt="imagem do site projeto marvel">
+                    </a>
+                </div>
+                <div class="project">
+                    <h2>Projeto Poesia</h2>
+                    <a href="https://clecianofreitas.github.io/poetry-project/" target="_blank">
+                        <img class="img-project" src="img/img-poesia.jpg" width="300px" alt="imagem do site pojeto poesia">
+                    </a>
+                </div>
+                <div class="project">
+                    <h2>Projeto Home Page</h2>
+                    <a href="https://clecianofreitas.github.io/easy-shopping/" target="_blank">
+                        <img class="img-project" src="img/img-homepage.jpg" width="300px" alt="imagem do projeto home page">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="contact" id="contatos">
+        <div class="link-contact">
+                <h3>Contatos:</h3>
+                <a href="https://www.linkedin.com/in/cleciano-freitas-564aa7256/" target="_blank">
+                    <img class="img" src="img/img-linkedin.png" alt="imagem linkdin">
+                </a>
+                <a href="https://github.com/ClecianoFreitas" target="_blank">
+                    <img class="img" src="img/img-github.png" alt="imagem github">
+                </a>
+        </div>
+            <p>Projeto desenvolvido por Cleciano Freitas</p>
+    </footer>
+    </div> 
+</body>
+</html>
